@@ -1,5 +1,5 @@
 fs = require('fs')
-fs.readFile('../total.csv', 'utf8', function (err,data) {
+fs.readFile('../csv/total.csv', 'utf8', function (err,data) {
   if (err) {
     return console.log(err);
   }
@@ -10,7 +10,6 @@ fs.readFile('../total.csv', 'utf8', function (err,data) {
 
   var result = [];
   var headers=lines[0].trim().split(",");
-
   for(var i=1;i<lines.length;i++){
 	  var obj = {};
 	  var currentline=lines[i].trim().split(",");
@@ -23,7 +22,7 @@ fs.readFile('../total.csv', 'utf8', function (err,data) {
   }
   //  console.log(JSON.stringify(result,null,4)); //JSON
 
-   fs.writeFile("total.json", JSON.stringify(result, null, 4), function(err) {
+   fs.writeFile("../json/total.json", JSON.stringify(result, null, 4), function(err) {
     if(err) {
       console.log(err);
     } else {

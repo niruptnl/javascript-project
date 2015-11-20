@@ -1,0 +1,137 @@
+{
+    "STACKED_DATA": [
+        {
+            "country": "Argentina",
+            "data": [
+                20.47,
+                3.41
+            ]
+        },
+        {
+            "country": "Australia",
+            "data": [
+                15.44,
+                3.92
+            ]
+        },
+        {
+            "country": "Brazil",
+            "data": [
+                12.81,
+                2.53
+            ]
+        },
+        {
+            "country": "Canada",
+            "data": [
+                11.99,
+                3.32
+            ]
+        },
+        {
+            "country": "China",
+            "data": [
+                34.51,
+                1.48
+            ]
+        },
+        {
+            "country": "France",
+            "data": [
+                7.43,
+                1.48
+            ]
+        },
+        {
+            "country": "Germany",
+            "data": [
+                10.56,
+                -0.01
+            ]
+        },
+        {
+            "country": "India",
+            "data": [
+                25.11,
+                4.09
+            ]
+        },
+        {
+            "country": "Indonesia",
+            "data": [
+                27.06,
+                4.34
+            ]
+        },
+        {
+            "country": "Italy",
+            "data": [
+                2.03,
+                1.09
+            ]
+        },
+        {
+            "country": "Japan",
+            "data": [
+                8.86,
+                -0.55
+            ]
+        },
+        {
+            "country": "Mexico",
+            "data": [
+                18.01,
+                3.29
+            ]
+        },
+        {
+            "country": "Russia",
+            "data": [
+                17.8,
+                -1.02
+            ]
+        },
+        {
+            "country": "Saudi Arabia",
+            "data": [
+                18.71,
+                -2.29
+            ]
+        },
+        {
+            "country": "South Africa",
+            "data": [
+                15.29,
+                3.64
+            ]
+        },
+        {
+            "country": "Republic of Korea",
+            "data": [
+                14.9,
+                1.68
+            ]
+        },
+        {
+            "country": "Turkey",
+            "data": [
+                21.69,
+                3.85
+            ]
+        },
+        {
+            "country": "United Kingdom",
+            "data": [
+                7.55,
+                2.41
+            ]
+        },
+        {
+            "country": "USA",
+            "data": [
+                11.99,
+                2.3
+            ]
+        }
+    ]
+}

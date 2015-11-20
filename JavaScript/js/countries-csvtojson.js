@@ -1,7 +1,7 @@
 fs = require('fs')
 var result = [];
 
-var data=fs.readFileSync('../countrylist.csv', 'utf8');
+var data=fs.readFileSync('../csv/countrylist.csv', 'utf8');
 var first=function (data) {
 
   var lines=data.trim().split("\n");
@@ -16,7 +16,7 @@ var first=function (data) {
   }
   //  console.log(JSON.stringify(result,null,4)); //JSON
 
-   fs.writeFile("countrieslist.json", JSON.stringify(result, null, 4), function(err) {
+   fs.writeFile("../json/countrieslist.json", JSON.stringify(result, null, 4), function(err) {
     if(err) {
       console.log(err);
     } else {
