@@ -1,5 +1,4 @@
-{
-    "GDP_DATA": [
+[
         {
             "country_name": "Argentina",
             "gdp": 498.7
@@ -61,7 +60,7 @@
             "gdp": 375.99
         },
         {
-            "country_name": "Korea",
+            "country_name": "Republic of Korea",
             "gdp": 1258.59
         },
         {
@@ -77,4 +76,3 @@
             "gdp": 16237.75
         }
     ]
-}
