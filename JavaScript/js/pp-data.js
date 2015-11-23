@@ -13,7 +13,7 @@ fs.readFile('../csv/Table1.3_g20_2013.csv', 'utf8', function (err,data) {
     var obj = {};
 	  var currentline=lines[i].trim().split(",");
     obj["country_name"]=currentline[0];
-		obj["purchasing power"] = parseFloat(currentline[17]);
+		obj["purchasing-power"] = parseFloat(currentline[17]);
     result.push(obj);
   }
   var plotdata={
@@ -21,7 +21,7 @@ fs.readFile('../csv/Table1.3_g20_2013.csv', 'utf8', function (err,data) {
   }
   //  console.log(JSON.stringify(result,null,4)); //JSON
 
-   fs.writeFile("../json/purchasingpower-data.json", JSON.stringify(plotdata, null, 4), function(err) {
+   fs.writeFile("../json/purchasingpower_data.json", JSON.stringify(plotdata, null, 4), function(err) {
     if(err) {
       console.log(err);
     } else {

@@ -21,14 +21,14 @@ var setdata=function (data,countrieslist){
         for(k=0;k<result.length;k++)
         {
           if(currentline2[0]===result[k].continent){
-            result[k].population = parseFloat((parseFloat(result[k].population) + parseFloat(currentline[5])).toFixed(2));
+            result[k].population = parseFloat((parseFloat(result[k].population) + parseFloat(currentline[5])*10).toFixed(2));
             result[k].gdp = parseFloat((parseFloat(result[k].gdp) + parseFloat(currentline[9])).toFixed(2));
             flag=1;
           }
         }
           if(flag!=1){
             obj["continent"]=currentline2[0];
-            obj["population"] = parseFloat(currentline[5]);
+            obj["population"] = parseFloat(currentline[5])*10;
             obj["gdp"]=parseFloat(currentline[9]);
             result.push(obj);
           }

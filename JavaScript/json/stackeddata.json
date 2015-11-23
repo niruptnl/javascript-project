@@ -2,136 +2,98 @@
     "STACKED_DATA": [
         {
             "country": "Argentina",
-            "data": [
-                20.47,
-                3.41
-            ]
+            "Change_in_Population": 20.47,
+            "Change_in_Purchasing_Power": 3.41
         },
         {
             "country": "Australia",
-            "data": [
-                15.44,
-                3.92
-            ]
+            "Change_in_Population": 15.44,
+            "Change_in_Purchasing_Power": 3.92
         },
         {
             "country": "Brazil",
-            "data": [
-                12.81,
-                2.53
-            ]
+            "Change_in_Population": 12.81,
+            "Change_in_Purchasing_Power": 2.53
         },
         {
             "country": "Canada",
-            "data": [
-                11.99,
-                3.32
-            ]
+            "Change_in_Population": 11.99,
+            "Change_in_Purchasing_Power": 3.32
         },
         {
             "country": "China",
-            "data": [
-                34.51,
-                1.48
-            ]
+            "Change_in_Population": 34.51,
+            "Change_in_Purchasing_Power": 1.48
         },
         {
             "country": "France",
-            "data": [
-                7.43,
-                1.48
-            ]
+            "Change_in_Population": 7.43,
+            "Change_in_Purchasing_Power": 1.48
         },
         {
             "country": "Germany",
-            "data": [
-                10.56,
-                -0.01
-            ]
+            "Change_in_Population": 10.56,
+            "Change_in_Purchasing_Power": -0.01
         },
         {
             "country": "India",
-            "data": [
-                25.11,
-                4.09
-            ]
+            "Change_in_Population": 25.11,
+            "Change_in_Purchasing_Power": 4.09
         },
         {
             "country": "Indonesia",
-            "data": [
-                27.06,
-                4.34
-            ]
+            "Change_in_Population": 27.06,
+            "Change_in_Purchasing_Power": 4.34
         },
         {
             "country": "Italy",
-            "data": [
-                2.03,
-                1.09
-            ]
+            "Change_in_Population": 2.03,
+            "Change_in_Purchasing_Power": 1.09
         },
         {
             "country": "Japan",
-            "data": [
-                8.86,
-                -0.55
-            ]
+            "Change_in_Population": 8.86,
+            "Change_in_Purchasing_Power": -0.55
         },
         {
             "country": "Mexico",
-            "data": [
-                18.01,
-                3.29
-            ]
+            "Change_in_Population": 18.01,
+            "Change_in_Purchasing_Power": 3.29
         },
         {
             "country": "Russia",
-            "data": [
-                17.8,
-                -1.02
-            ]
+            "Change_in_Population": 17.8,
+            "Change_in_Purchasing_Power": -1.02
         },
         {
             "country": "Saudi Arabia",
-            "data": [
-                18.71,
-                -2.29
-            ]
+            "Change_in_Population": 18.71,
+            "Change_in_Purchasing_Power": -2.29
         },
         {
             "country": "South Africa",
-            "data": [
-                15.29,
-                3.64
-            ]
+            "Change_in_Population": 15.29,
+            "Change_in_Purchasing_Power": 3.64
         },
         {
-            "country": "Republic of Korea",
-            "data": [
-                14.9,
-                1.68
-            ]
+            "country": "Korea",
+            "Change_in_Population": 14.9,
+            "Change_in_Purchasing_Power": 1.68
         },
         {
             "country": "Turkey",
-            "data": [
-                21.69,
-                3.85
-            ]
+            "Change_in_Population": 21.69,
+            "Change_in_Purchasing_Power": 3.85
         },
         {
-            "country": "United Kingdom",
-            "data": [
-                7.55,
-                2.41
-            ]
+            "country": "UK",
+            "Change_in_Population": 7.55,
+            "Change_in_Purchasing_Power": 2.41
         },
         {
             "country": "USA",
-            "data": [
-                11.99,
-                2.3
-            ]
+            "Change_in_Population": 11.99,
+            "Change_in_Purchasing_Power": 2.3
         }
     ]
 }

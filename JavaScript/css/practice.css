@@ -10,3 +10,49 @@
   stroke:#000;
   shape-rendering:crishpEdges;
 }
+body{
+  background-color: darkkhaki;
+}
+.header{
+  text-align: center;
+  width: 800px;
+  height: auto;
+  margin: auto;
+  margin-top: 60px;
+  background-color: lightgrey;
+  padding: 5px;
+  font-size: 16px;
+  font-weight: bold;
+}
+.header a{
+  padding-right: 20px;
+
+}
+
+ a:link {
+    color: #019875;
+    text-decoration: none;
+}
+
+/* visited link */
+ a:visited {
+    color: #019875;
+     text-decoration: none;
+}
+
+/* mouse over link */
+ a:hover {
+    color: #019875;
+     text-decoration: underline;
+     cursor: pointer;
+}
+
+/* selected link */
+ a:active {
+    color: #019875;
+     text-decoration: none;
+}
+
+.gdp-plot,.population-plot,.pp-plot,.population-gdp-data,.stacked-data{
+  margin-top: 50px;
+}

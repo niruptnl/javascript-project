@@ -13,10 +13,12 @@ fs.readFile('../csv/Table1.3_g20_2013.csv', 'utf8', function (err,data) {
     var obj = {};
 	  var currentline=lines[i].trim().split(",");
     obj["country"]=currentline[0];
-		obj["data"] = [
-                    parseFloat((((currentline[17]-currentline[14])/currentline[14])*100).toFixed(2)),
-                    parseFloat((((currentline[5]-currentline[2])/currentline[2])*100).toFixed(2))
-                  ]
+		// obj["data"] = [
+    //                 parseFloat((((currentline[17]-currentline[14])/currentline[14])*100).toFixed(2)),
+    //                 parseFloat((((currentline[5]-currentline[2])/currentline[2])*100).toFixed(2))
+    //               ]
+    obj["Change_in_Population"]=parseFloat((((currentline[17]-currentline[14])/currentline[14])*100).toFixed(2));
+    obj["Change_in_Purchasing_Power"]=parseFloat((((currentline[5]-currentline[2])/currentline[2])*100).toFixed(2));
     result.push(obj);
   }
   var plotdata={
